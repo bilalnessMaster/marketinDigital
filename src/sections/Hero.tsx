@@ -59,21 +59,21 @@ const Hero = () => {
 
   return (
     <section   className='h-screen flex items-center '>
-        <section  className=' grid items-center w-full'>
-            <div className='max-w-lg'>
-                <p ref={miniScope}  className='uppercase font-uncut  text-xl'>
+        <section  className=' grid items-center w-full gap-1'>
+            <div className='xl:max-w-lg'>
+                <p ref={miniScope}  className='uppercase font-uncut  text-sm md:text-xl'>
                 Bonne lecture et belle découverte !
                 </p>
             </div>
-            <div className='max-w-[90rem]'>
-                <h1  ref={titleScope}   className='text-9xl leading-wide font-uncut uppercase font-medium'>
+            <div className='max-w-full lg:max-w-[90rem]'>
+                <h1  ref={titleScope}   className='text-5xl md:text-7xl lg:text-9xl leading-wide font-uncut uppercase font-medium'>
                 <span>95% de nos clients </span>
                 <span>augmentent leurs </span>
                 <span>VENTES .</span>
                 </h1>
             </div>
-            <div className='flex justify-end w-full'>
-                <p  ref={paraScope}   className='max-w-sm font-uncut text-xl'>
+            <div className='flex justify-end w-full mb-12'>
+                <p  ref={paraScope}   className='max-w-sm font-uncut text-sm md:text-xl'>
                 Une approche 100% opérationnelle et orientée résultats, pragmatique et centrée sur vos objectifs
                 </p>
             </div>
@@ -90,7 +90,7 @@ const Hero = () => {
                  duration: .5
             }}
 
-            className='flex w-full items-center justify-center flex-grow '>
+            className='flex w-full items-center justify-center mt-12 '>
                     <motion.button
                      whileHover={{ scale: 1.01 }}
                      whileTap={{ scale: 0.8 }}

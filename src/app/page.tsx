@@ -1,4 +1,5 @@
 'use client'
+import Responsive from "@/components/Responsive";
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
 import Lenis from 'lenis'
@@ -17,6 +18,7 @@ export default function Home() {
         <main className=" w-full px-4 pb-90900">
             <Header />
             <Hero />
+            <Responsive />
         </main>
   );
 }
