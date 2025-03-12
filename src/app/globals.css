@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +25,29 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+@theme {
+    --font-uncut : 'Uncut Sans', sans-serif;
+    --font-geist: "Geist Mono", monospace;
+    --font-ibm :"IBM Plex Mono", monospace;
+    --font-sans : "Geist", sans-serif;
+}
+.target {
+    font-kerning: none;
+}
+.line {
+    overflow: hidden;
+}
+.char {
+    transform: translateY(100%);
+}
+.word {
+    transform: translateY(100%);
+    filter :blur(4px) ;
+}
+.link {
+     transform: translateX(100%);
 }
