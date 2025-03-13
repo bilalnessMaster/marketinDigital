@@ -58,7 +58,7 @@ const Hero = () => {
     }, [titleScope, titleAnimate , paraScope ,paraAnimate,  miniAnimate, miniScope]);
 
   return (
-    <section   className='h-screen flex items-center '>
+    <section   className='h-screen flex items-center text-primary px-4'>
         <section  className=' grid items-center w-full gap-1'>
             <div className='xl:max-w-lg'>
                 <p ref={miniScope}  className='uppercase font-uncut  text-sm md:text-xl'>

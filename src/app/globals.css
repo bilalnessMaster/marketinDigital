@@ -35,6 +35,7 @@ body {
     --font-ibm :"IBM Plex Mono", monospace;
     --font-sans : "Geist", sans-serif;
     --font-montreal : 'PP Neue Montreal', sans-serif;
+    --color-primary : #262626;
 }
 .target {
     font-kerning: none;
@@ -50,5 +51,6 @@ body {
     filter :blur(4px) ;
 }
 .link {
+    
      transform: translateX(100%);
 }

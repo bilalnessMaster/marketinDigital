@@ -2,7 +2,7 @@ import React from 'react'
 
 const Responsive = () => {
   return (
-    <div className='fixed bottom-0 left-0 w-24 h-14 bg-black text-white text-3xl flex items-center justify-center'>
+    <div className='fixed bottom-0 left-0 w-24 h-14 bg-black text-white text-3xl flex items-center justify-center z-50'>
         <span className='block md:hidden'>
             small
         </span>

@@ -32,6 +32,7 @@ export default function RootLayout({
     <head>
     <link href="https://fonts.cdnfonts.com/css/uncut-sans" rel="stylesheet"/>
     <link href="https://fonts.cdnfonts.com/css/pp-neue-montreal" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
 
     </head>
       <body

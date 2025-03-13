@@ -28,8 +28,8 @@ const Header = () => {
     }, [scope, animate, listScope, listAnimate])
 
   return (
-    <motion.header initial={{ translateY : '-100%'}} ref={scope}   className='w-full flex justify-between items-center py-2 fixed '>
-        <nav className='flex justify-between w-full pr-8'>
+    <motion.header initial={{ translateY : '-100%'}} ref={scope}   className='w-full flex justify-between items-center py-2 fixed px-4'>
+        <nav className='flex justify-between w-full \'>
             <div>
                 <Image src={logo}  width={40} height={40} alt="brand logo" />
             </div>
