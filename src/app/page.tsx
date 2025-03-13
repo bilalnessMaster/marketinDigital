@@ -1,5 +1,5 @@
 'use client'
-import Responsive from "@/components/Responsive";
+// import Responsive from "@/components/Responsive";
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
 import Lenis from 'lenis'
