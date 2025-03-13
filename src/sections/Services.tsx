@@ -77,23 +77,23 @@ const Services = () => {
     <motion.section  ref={scope} style={{
         scaleX : X ,
         marginTop: Y
-    }}     className='h-full grid grid-cols-12 w-full z-20 bg-primary  rounded-t-xl  p-8'>
+    }}     className='h-full grid md:grid-cols-12 w-full z-20 bg-primary  rounded-t-xl  p-2 lg:p-8'>
 
 
-        <div className='col-span-7 h-fit sticky top-8'>
-                <motion.h1   className='text-8xl text-white font-uncut'>
+        <div className='col-span-6 lg:col-span-7 h-fit md:sticky top-8'>
+                <motion.h1   className='text-4xl sm:text-6xl lg:text-7xl xl:text-8xl text-white font-uncut'>
                 NOTRE STRATEGIE
                 </motion.h1>
         </div>
-        <div className='col-span-5'>
+        <div className='col-span-6 lg:col-span-5'>
                 {
                     services.map((service, index) => (
                         <motion.div key={service.id} whileInView={{opacity : 1 , scale : 1 , y : 0}} transition={{duration : 0.5}} initial={{opacity : 0 , scale : .95 , y : 50}}  className='flex   divide-x  py-10 border-b border-white divide-white text-white gap-3 mb-3 last:border-none'>
-                            <div className='px-8 text-3xl'>
+                            <div className=' px-4 md:px-8 text-2xl font-ibm md:text-3xl'>
                                 [{index.toString().padStart(2, "0")}]
                             </div>
                             <div className='pl-3 max-w-xs text-xl font-uncut'>
-                                <motion.h2   className='text-4xl text-white font-uncut uppercase'>
+                                <motion.h2   className='md:text-4xl text-white font-uncut uppercase'>
                                     {service.title}
                                 </motion.h2>
                                 <motion.p   className='text-sm text-white font-ibm'>
