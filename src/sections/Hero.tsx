@@ -66,14 +66,14 @@ const Hero = () => {
                 </p>
             </div>
             <div className='max-w-full lg:max-w-[90rem]'>
-                <h1  ref={titleScope}   className='text-5xl md:text-7xl lg:text-9xl leading-wide font-uncut uppercase font-medium'>
+                <h1  ref={titleScope}   className='text-5xl md:text-7xl lg:text-8xl xl:text-9xl leading-wide font-uncut uppercase font-medium'>
                 <span>95% de nos clients </span>
                 <span>augmentent leurs </span>
                 <span>VENTES .</span>
                 </h1>
             </div>
             <div className='flex justify-end w-full mb-12'>
-                <p  ref={paraScope}   className='max-w-sm font-uncut text-sm md:text-xl'>
+                <p  ref={paraScope}   className='max-w-sm text-sm md:text-xl font-sans '>
                 Une approche 100% opérationnelle et orientée résultats, pragmatique et centrée sur vos objectifs
                 </p>
             </div>

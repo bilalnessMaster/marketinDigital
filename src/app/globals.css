@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import url('https://fonts.cdnfonts.com/css/pp-neue-montreal');
 
 
 :root {
@@ -34,6 +34,7 @@ body {
     --font-geist: "Geist Mono", monospace;
     --font-ibm :"IBM Plex Mono", monospace;
     --font-sans : "Geist", sans-serif;
+    --font-montreal : 'PP Neue Montreal', sans-serif;
 }
 .target {
     font-kerning: none;

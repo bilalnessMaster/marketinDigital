@@ -18,7 +18,7 @@ export default function Home() {
         <main className=" w-full px-4 pb-90900">
             <Header />
             <Hero />
-            <Responsive />
+            {/* <Responsive /> */}
         </main>
   );
 }

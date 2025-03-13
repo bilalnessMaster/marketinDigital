@@ -31,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
     <head>
     <link href="https://fonts.cdnfonts.com/css/uncut-sans" rel="stylesheet"/>
+    <link href="https://fonts.cdnfonts.com/css/pp-neue-montreal" rel="stylesheet"/>
 
     </head>
       <body
