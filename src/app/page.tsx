@@ -2,6 +2,7 @@
 // import Responsive from "@/components/Responsive";
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
+import Processus from "@/sections/Processus";
 import Services from "@/sections/Services";
 import Lenis from 'lenis'
 import { useEffect } from "react";
@@ -23,6 +24,7 @@ export default function Home() {
             <Hero />
             {/* <Responsive /> */}
             <Services />
+            <Processus />
         </main>
   );
 }
